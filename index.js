@@ -24,6 +24,7 @@ let createTimeInEvent = function(timeStamp){
     type: "TimeIn",
 
   })
+  return this
 }
 
 let createTimeOutEvent = function(){
