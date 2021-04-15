@@ -36,7 +36,7 @@ let createTimeOutEvent = function(timeStamp){
     type: "TimeOut",
     hour: parseInt(hour, 10),
     date,
-    
+
   })
   return this
 }
