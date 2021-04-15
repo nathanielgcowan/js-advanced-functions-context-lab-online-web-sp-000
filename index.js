@@ -10,6 +10,26 @@ let createEmployeeRecords = function(){
 let createTimeInEvent = function(){
 
 }
+
+let createTimeOutEvent = function(){
+  
+}
+
+let hoursWorkedOnDate = function(){
+  
+}
+
+let wagesEarnedOnDate = function(){
+  
+}
+
+let calculatePayroll = function(){
+  
+}
+
+let findEmployeeByFirstName = function(){
+  
+}
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
