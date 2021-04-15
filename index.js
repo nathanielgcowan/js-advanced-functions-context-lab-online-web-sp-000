@@ -53,8 +53,10 @@ let hoursWorkedOnDate = function(soughtDate){
   return (clockOut.hour - clockIn.hour) / 100
 }
 
-let wagesEarnedOnDate = function(){
-
+let wagesEarnedOnDate = function(dateSought){
+  let baseWage = hoursWorkedOnDate.call(this, dateSought)
+    * this.payPerHour
+  return parseFloat(baseWage.toString())
 }
 
 let calculatePayroll = function(){
