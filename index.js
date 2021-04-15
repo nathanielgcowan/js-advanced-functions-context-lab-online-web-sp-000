@@ -29,8 +29,16 @@ let createTimeInEvent = function(timeStamp){
   return this
 }
 
-let createTimeOutEvent = function(){
+let createTimeOutEvent = function(timeStamp){
+  let [date, hour] = timeStamp.split(' ')
 
+  this.timeOutEvents.push({
+    type: "TimeOut",
+    hour: parseInt(hour, 10),
+    date,
+    
+  })
+  return this
 }
 
 let hoursWorkedOnDate = function(){
