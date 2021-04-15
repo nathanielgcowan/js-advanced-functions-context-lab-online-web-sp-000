@@ -46,9 +46,9 @@ let hoursWorkedOnDate = function(soughtDate){
     return e.date === soughtDate
   })
 
-  let clockOut = this.timeOutEvents = function(e){
+  let clockOut = this.timeOutEvents.find(function(e){
     return e.date === soughtDate
-  }
+  })
 
   return (clockOut.hour - clockIn.hour) / 100
 }
