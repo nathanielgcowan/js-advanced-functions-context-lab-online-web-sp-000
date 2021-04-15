@@ -17,8 +17,13 @@ let createEmployeeRecords = function(employeeRowData){
   })
 }
 
-let createTimeInEvent = function(){
+let createTimeInEvent = function(timeStamp){
+  let [date, hour] = timeStamp.split(' ')
 
+  this.timeInEvents.push({
+    type: "TimeIn",
+    
+  })
 }
 
 let createTimeOutEvent = function(){
