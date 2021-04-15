@@ -22,7 +22,7 @@ let createTimeInEvent = function(timeStamp){
 
   this.timeInEvents.push({
     type: "TimeIn",
-    
+
   })
 }
 
