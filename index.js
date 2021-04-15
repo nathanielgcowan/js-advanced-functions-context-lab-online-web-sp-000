@@ -63,8 +63,10 @@ let calculatePayroll = function(){
 
 }
 
-let findEmployeeByFirstName = function(){
-
+let findEmployeeByFirstName = function(array, firstName){
+  return array.find(function(e){
+    return e.firstName === firstName
+  })
 }
 /*
  We're giving you this function. Take a look at it, you might see some usage
